@@ -22,7 +22,7 @@ export default function Home(props: HomeProps) {
         <ChallengesProvider level={props.level} currentExperience={props.currentExperience} challengesCompleted={props.challengesCompleted}>
             <div className={styles.container}>
                 <Head>
-                    <title>Início | move.it</title>
+                    <title>Início | pomodoro-move.it</title>
                 </Head>
 
                 <ExperienceBar />
